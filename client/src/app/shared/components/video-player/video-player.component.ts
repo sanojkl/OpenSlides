@@ -79,7 +79,7 @@ export class VideoPlayerComponent implements OnDestroy {
     }
 
     public get youTubeVideoUrl(): string {
-        return `http://www.youtube.com/embed/${this.youTubeVideoId}?autoplay=1`;
+        return `https://www.youtube.com/embed/${this.youTubeVideoId}?autoplay=1`;
     }
 
     public constructor(config: ConfigService) {
